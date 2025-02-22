@@ -11,7 +11,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # to the source code
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
-# TODO 2: Use add_subdirectory() to add MathFunctions to this project
+# Use add_subdirectory() to add MathFunctions to this project
+# Creates a dir called MathFunctions and runs its CMakeLists.txt
 add_subdirectory(MathFunctions)
 
 # add the executable
